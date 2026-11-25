@@ -1,0 +1,25 @@
+{
+  "name": "Pair Oscillator",
+  "short_name": "Pair Oscillator",
+  "description": "Compare images two at a time. Drop in a set of images and each pair flips back and forth so the differences jump out.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#111315",
+  "theme_color": "#111315",
+  "categories": [
+    "photo",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
