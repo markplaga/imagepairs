@@ -1,9 +1,11 @@
 /* Pair Oscillator service worker: makes the app installable and usable offline.
    Bump VERSION whenever you change app files so installed copies refresh. */
-const VERSION='imagepairs-v1';
+const VERSION='imagepairs-v2';
 const CORE = [
   './', 'index.html', 'manifest.webmanifest',
-  'icons/icon.svg'
+  'icons/icon.svg',
+  'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png',
+  'icons/apple-touch-icon.png'
 ];
 
 self.addEventListener('install', e => {
